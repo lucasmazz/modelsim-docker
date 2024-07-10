@@ -31,7 +31,7 @@ USER docker
 # Define build arguments
 ARG HOME=/home/docker
 ARG MODELSIM_VERSION=20.1.1.720
-ARG MODELSIM_URL=https://cdrdv2.intel.com/v1/dl/getContent/750666/750670?filename=ModelSimSetup-${MODELSIM_VERSION}-linux.run
+ARG MODELSIM_URL=https://downloads.intel.com/akdlm/software/acdsinst/20.1std.1/720/ib_installers/ModelSimSetup-20.1.1.720-linux.run
 ARG MODELSIM_DIR="${HOME}/intelFPGA"
 
 # Set the working directory to the ModelSim installation directory
