@@ -17,4 +17,4 @@ docker run -it --net=host --ipc=host \
            -v $XAUTHORITY:/tmp/.XAuthority \
            -v ${PROJECT_PATH}:/home/docker/project \
            -u $(id -u):$(id -g) \
-           modelsim-20.1
+           modelsim:20.1
